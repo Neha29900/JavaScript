@@ -3,8 +3,10 @@
  * @param {number} m
  * @param {number[]} nums2
  * @param {number} n
- * @return {void} Do not return anything, modify nums1 in-place instead.
+ * @return {void} 
  */
+
+    //program to perform merging of two sorted array
 var merge = function(nums1, m, nums2, n) {
     // Start merging from the end of nums1
     let i = m - 1; // Last initialized element in nums1
