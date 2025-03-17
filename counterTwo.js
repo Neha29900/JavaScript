@@ -12,6 +12,10 @@ var createCounter = function(init){
         },
         decrement: function(){
             return --current;
+        },
+        reset: function() {
+            current= init;
+            return current;
         }
     };
 };
